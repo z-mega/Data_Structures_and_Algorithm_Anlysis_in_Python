@@ -93,7 +93,6 @@ class SingleLinkList(object):
                 pre = cur
                 cur = cur.next
 
-
     def search(self, item):
         '''查找结点是否存在'''
         cur = self.__head
