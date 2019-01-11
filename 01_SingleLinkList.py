@@ -30,7 +30,7 @@ class SingleLinkList(object):
         return count
 
     def travel(self):
-        '''遍历整个链表'''
+        '''遍历整个链表''' 
         cur = self.__head
         while cur != None:
             print(cur.elem, end=' ')
